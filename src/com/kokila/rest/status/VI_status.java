@@ -46,7 +46,7 @@ public class VI_status {
 			}
 			query.close();
 			
-			returnString = "<p>Database Status </p>" + "<p> Database Date/Time return: " + myString + "</p>";
+			returnString = "<p> Database Status </p>" + "<p> Database Date/Time return: " + myString + "</p>";
 		}
 		
 		catch(Exception e){
